@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTax Canada - Efficient Tax Planning & Filing Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html"><i class="fas fa-calculator"></i> MyTax Canada</a>
+            </div>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#calculator">Tax Savings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Save Thousands on Your Canadian Taxes</h1>
+            <p>Expert Canadian tax planning and efficient filing to maximize your savings and ensure timely CRA submissions</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="scrollToContact()">Get Started</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('calculator').scrollIntoView({behavior: 'smooth'})">Calculate Savings</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>$20,000+</h3>
+                    <p>Average Customer Savings</p>
+                </div>
+                <div class="stat">
+                    <h3>99.9%</h3>
+                    <p>CRA Compliance Rate</p>
+                </div>
+                <div class="stat">
+                    <h3>8,500+</h3>
+                    <p>Happy Canadian Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Why Efficient Tax Planning Matters</h2>
+            <div class="why-grid">
+                <div class="why-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Maximize Deductions</h3>
+                    <p>We identify every possible deduction and credit you're entitled to, ensuring you keep more of your money.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Never Miss Deadlines</h3>
+                    <p>Avoid penalties and interest charges. We ensure your taxes are filed on time, every time.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>CRA Compliance</h3>
+                    <p>Complete peace of mind with full compliance to current Canadian tax regulations and CRA requirements.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Year-Round Planning</h3>
+                    <p>Strategic tax planning throughout the year, not just at tax time, for continuous savings.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Expert Support</h3>
+                    <p>Access to certified tax professionals who understand your unique financial situation.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Data Security</h3>
+                    <p>Military-grade encryption protects your sensitive financial and personal information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Tax Return Preparation</h3>
+                    <p>Comprehensive Canadian tax return preparation for individuals, self-employed professionals, and families with expert attention to detail.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> T1 Individual Returns</li>
+                        <li><i class="fas fa-check"></i> Self-Employed Returns</li>
+                        <li><i class="fas fa-check"></i> Multi-Province Returns</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Tax Planning Strategy</h3>
+                    <p>Proactive tax planning to reduce your tax burden and optimize your financial position year-round.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Deduction Optimization</li>
+                        <li><i class="fas fa-check"></i> Credit Maximization</li>
+                        <li><i class="fas fa-check"></i> Quarterly Estimated Taxes</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Business Tax Services</h3>
+                    <p>Specialized services for Canadian entrepreneurs and small business owners to minimize tax liability.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Sole Proprietor/Corp Setup</li>
+                        <li><i class="fas fa-check"></i> T2 Corporate Returns</li>
+                        <li><i class="fas fa-check"></i> GST/HST Compliance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education Planning</h3>
+                    <p>Optimize Canadian education-related tax credits and deductions for maximum benefit.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> RESP Planning</li>
+                        <li><i class="fas fa-check"></i> Tuition Credits</li>
+                        <li><i class="fas fa-check"></i> Student Loan Interest</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-house"></i>
+                    </div>
+                    <h3>Real Estate Tax Planning</h3>
+                    <p>Navigate Canadian real estate taxation with expert guidance on principal residence and investments.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Principal Residence Exemption</li>
+                        <li><i class="fas fa-check"></i> Rental Property Deductions</li>
+                        <li><i class="fas fa-check"></i> Capital Gains Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>CRA Representation</h3>
+                    <p>Professional representation for CRA audits, amendments, and correspondence.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Audit Support</li>
+                        <li><i class="fas fa-check"></i> Adjusted Returns</li>
+                        <li><i class="fas fa-check"></i> Notice of Objection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2>Key Benefits of Professional Tax Planning</h2>
+            <div class="benefits-content">
+                <div class="benefits-left">
+                    <div class="benefit-item">
+                        <h4><i class="fas fa-dollar-sign"></i> Financial Savings</h4>
+                        <p>Discover Canadian deductions and credits you might miss on your own. Average savings of $7,000-$30,000+ per year depending on income level.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4><i class="fas fa-clock"></i> Time Savings</h4>
+                        <p>Stop spending hours organizing documents and calculating numbers. Reclaim 20+ hours of your time each year.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4><i class="fas fa-brain"></i> Peace of Mind</h4>
+                        <p>Eliminate stress and worry. Know your taxes are handled by experts and comply with all regulations.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4><i class="fas fa-chart-pie"></i> Strategic Planning</h4>
+                        <p>Beyond tax filing - we help you build wealth and plan for your financial future proactively.</p>
+                    </div>
+                </div>
+                <div class="benefits-right">
+                    <div class="savings-breakdown">
+                        <h3>Where You Can Save</h3>
+                        <div class="savings-item">
+                            <span>Missed Deductions</span>
+                            <div class="savings-amount">Up to $9,000</div>
+                        </div>
+                        <div class="savings-item">
+                            <span>Tax Credits (Federal + Provincial)</span>
+                            <div class="savings-amount">Up to $8,500</div>
+                        </div>
+                        <div class="savings-item">
+                            <span>Business Expenses</span>
+                            <div class="savings-amount">Up to $6,000</div>
+                        </div>
+                        <div class="savings-item">
+                            <span>Investment Strategy</span>
+                            <div class="savings-amount">Up to $4,000</div>
+                        </div>
+                        <div class="savings-item">
+                            <span>Income Splitting Strategies</span>
+                            <div class="savings-amount">Up to $3,500</div>
+                        </div>
+                        <div class="total-savings">
+                            <span>Total Potential Savings</span>
+                            <div class="total-amount">$20,000 - $31,000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax Savings Calculator -->
+    <section class="calculator-section" id="calculator">
+        <div class="container">
+            <h2>Estimate Your Tax Savings</h2>
+            <p class="calculator-subtitle">Answer a few quick questions to see how much you could save</p>
+            <div class="calculator">
+                <div class="calculator-group">
+                    <label for="income">Annual Income ($)</label>
+                    <input type="number" id="income" placeholder="Enter your income" min="0">
+                </div>
+                <div class="calculator-group">
+                    <label for="filingStatus">Filing Status</label>
+                    <select id="filingStatus">
+                        <option value="single">Single</option>
+                        <option value="married">Married Filing Jointly</option>
+                        <option value="head">Head of Household</option>
+                    </select>
+                </div>
+                <div class="calculator-group">
+                    <label for="businessIncome">Self-Employment Income ($)</label>
+                    <input type="number" id="businessIncome" placeholder="If applicable" min="0">
+                </div>
+                <div class="calculator-group">
+                    <label for="dependents">Number of Dependents</label>
+                    <input type="number" id="dependents" placeholder="0" min="0" max="10">
+                </div>
+                <button class="btn btn-primary" onclick="calculateSavings()">Calculate My Savings</button>
+            </div>
+            <div id="results" class="calculator-results" style="display:none;">
+                <h3>Your Estimated Savings Potential</h3>
+                <div class="result-box">
+                    <p>Est. Annual Tax Savings:</p>
+                    <h2 id="savingsAmount">$0</h2>
+                    <p class="result-note">Based on industry benchmarks for your profile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"MyTax identified deductions I completely missed. Saved me $10,500 on my first year!"</p>
+                    <h4>Jennifer M. - Toronto Freelance Designer</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"As a Canadian business owner, the year-round planning saves me thousands and keeps me CRA compliant."</p>
+                    <h4>David K. - Vancouver Business Owner</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Professional, responsive, and always looking out for ways to reduce my Canadian tax burden."</p>
+                    <h4>Sarah L. - Montreal Investment Professional</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Save Thousands on Your Canadian Taxes?</h2>
+            <p>Don't leave money on the table. Let our Canadian tax experts maximize your savings today.</p>
+            <button class="btn btn-primary btn-large" onclick="scrollToContact()">Schedule Your Consultation</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>1-800-TAX-HELP (1-800-829-4357)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@mytaxcanada.ca</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Bay Street, Toronto, ON M5H 2R2</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 9AM-6PM EST | Sat: 10AM-4PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="How can we help?" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MyTax Canada</h4>
+                    <p>Professional Canadian tax planning and efficient filing to maximize your savings.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Tax Return Prep</a></li>
+                        <li><a href="#services">Tax Planning</a></li>
+                        <li><a href="#services">Business Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MyTax Canada. All rights reserved. | Privacy Policy | Terms of Service | Serving all Canadian Provinces</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
